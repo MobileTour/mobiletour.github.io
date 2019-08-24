@@ -11,7 +11,7 @@
 
 ## TO-DO
 1. changing the email
-2. completing the description of  the entreprise
+2. ~~completing the description of  the entreprise~~
 3. inserting the logo
 4. changing the infos of the nombres
 5. changing the offres to be static
