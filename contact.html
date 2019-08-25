@@ -12,6 +12,8 @@
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 </head>
 <body>
 
@@ -124,31 +126,40 @@
 				</div>
 			</div>
 			<div class="row contact_content">
-				<div class="col-lg-5">
+				<div class="col-lg-5" style="padding-bottom: 20px">
 					<div class="contact_text">
-						<p>Pour toutes vos demandes de renseignements, vos conseils et vos commentaires
+						<p>Pour toutes vos demandes de renseignements, vos reservations, vos conseils et vos commentaires
 							 nous somme la pour vous écouter. il suffit de laisser un message et nous vous
 							  répondrons très bientôt inchallah
 						</p>
 					</div>
+					
 					<div class="contact_info">
-						<div class="contact_info_box">i</div>
-						<div class="contact_info_container">
-							<div class="contact_info_content">
-								<ul>
-									<li>Address: <a href="https://goo.gl/maps/VXfe7rgQ9EaFnEUa6">Boulvard zamouche, taher centre, Jijel</a></li>
-									<li>Phone: <a href="Tel: +213 555 50 13 71">05 55 50 13 71</a> et <a href="Tel: +213 698 97 93 94">06 98 97 93 94</a></li>
-									<li>Email:<a href="mailto: travelmobile@gmail.com">travelmobile@gmail.com</a></li>
-								</ul>
+						<div class="accordions_content ">
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>Adresse</div></div>
+								<div class="accordion_panel">
+									<p><a href="https://goo.gl/maps/VXfe7rgQ9EaFnEUa6">Boulvard zamouche, taher centre, Jijel</a></p>
+								</div>
 							</div>
-							<div class="contact_info_social">
-								<ul>
-									<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								</ul>
+	
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>Téléphones</div></div>
+								<div class="accordion_panel">
+									<p>
+										<a href="Tel: +213 555 50 13 71">05 55 50 13 71</a><br>
+										<a href="Tel: +213 698 97 93 94">06 98 97 93 94</a>
+									</p> 
+								</div>
 							</div>
+	
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center "><div>Email</div></div>
+								<div class="accordion_panel">
+									<p><a href="mailto: travelmobile18@gmail.com">travelmobile18@gmail.com</a></p>
+								</div>
+							</div>
+	
 						</div>
 					</div>
 				</div>
@@ -157,7 +168,7 @@
 					<div class="col">
 						<div id="google_map">
 							<div class="map_container">
-								<div id="map"></div>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1598.0237923316754!2d5.893768516415854!3d36.76942590317824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f25d98b5450209%3A0xdc8eca21cfd4aefe!2sMobileTour%20agence%20touristique%20et%20voyages!5e0!3m2!1sfr!2sdz!4v1566717169541!5m2!1sfr!2sdz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 							</div>
 						</div>
 					</div>	
@@ -228,5 +239,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> <i cl
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="js/contact_custom.js"></script>
+<script src="js/elements_custom.js"></script>
 </body>
 </html>
