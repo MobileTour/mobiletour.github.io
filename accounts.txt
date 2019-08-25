@@ -1,0 +1,7 @@
+=============== Host ================
+host: github.com
+email: travelmobile18@gmail.com
+password: MobileTour18002
+
+============== Domain ==============
+domain: f
